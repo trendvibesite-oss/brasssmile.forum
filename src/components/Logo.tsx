@@ -75,9 +75,6 @@ export default function Logo({ className = "", size = "md", withLink = true }: L
       <span className={`flex items-baseline font-extrabold tracking-tight ${sizeClasses[size]}`}>
         <span className="text-slate-900">Brass</span>
         <span className="text-amber-700">Smile</span>
-        <span className="ml-1 text-xs px-1.5 py-0.5 rounded bg-amber-100 text-amber-900 font-semibold tracking-normal border border-amber-300">
-          forum
-        </span>
       </span>
     </div>
   );
