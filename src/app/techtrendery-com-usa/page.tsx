@@ -182,6 +182,7 @@ export default function TechtrenderyArticlePage() {
           alt="TechTrendery.com USA platform review showing modern digital publishing workstation with laptop, editorial notes, and website analytics"
           fill
           priority
+          unoptimized
           sizes="(max-width: 768px) 100vw, 800px"
           className="object-cover"
         />
@@ -357,6 +358,7 @@ export default function TechtrenderyArticlePage() {
                 src="/images/articles/techtrendery-usa-domain-audience-matrix.jpg"
                 alt="Digital business strategy and website analytics display illustrating US audience traffic and domain metrics"
                 fill
+                unoptimized
                 sizes="(max-width: 768px) 100vw, 800px"
                 className="object-cover"
               />
@@ -557,6 +559,7 @@ export default function TechtrenderyArticlePage() {
                 src="/images/articles/techtrendery-multitopic-content-architecture.jpg"
                 alt="Modern creative newsroom workspace with tablet, digital media layout, and multi-topic editorial publishing tools"
                 fill
+                unoptimized
                 sizes="(max-width: 768px) 100vw, 800px"
                 className="object-cover"
               />
@@ -824,6 +827,7 @@ export default function TechtrenderyArticlePage() {
                 src="/images/articles/techtrendery-editorial-verification-checklist.jpg"
                 alt="Editorial analyst reviewing digital documentation, checklists, and source verification materials on modern laptop"
                 fill
+                unoptimized
                 sizes="(max-width: 768px) 100vw, 800px"
                 className="object-cover"
               />
