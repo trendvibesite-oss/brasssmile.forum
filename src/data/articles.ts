@@ -45,7 +45,7 @@ export const ARTICLES: Article[] = [
       role: "Digital Media & Market Strategy Team",
     },
     readingTime: "12 min read",
-    featuredImage: "/images/articles/techtrendery-com-usa-featured.svg",
+    featuredImage: "/images/articles/techtrendery-com-usa-featured.jpg",
     heroImageAlt:
       "techtrendery.com usa platform review showing browser mockup, multi-topic publishing architecture, and digital verification analytics",
     keyTakeaways: [
@@ -146,7 +146,7 @@ export const ARTICLES: Article[] = [
       role: "Health & Science Editorial Team",
     },
     readingTime: "8 min read",
-    featuredImage: "/images/articles/understanding-tooth-discoloration-enamel-dentin.svg",
+    featuredImage: "/images/articles/understanding-tooth-discoloration-enamel-dentin.jpg",
     heroImageAlt: "Cross-section anatomical diagram comparing tooth enamel, dentin, and light reflection",
     keyTakeaways: [
       "Tooth color is largely determined by the thickness and mineral density of enamel layered over yellow-tinted dentin.",
@@ -207,7 +207,7 @@ export const ARTICLES: Article[] = [
       role: "Technology & Software Engineering Team",
     },
     readingTime: "9 min read",
-    featuredImage: "/images/articles/ai-smile-analysis-technology-capabilities-limits.svg",
+    featuredImage: "/images/articles/ai-smile-analysis-technology-capabilities-limits.jpg",
     heroImageAlt: "Visualization of facial landmark detection mesh and color segmentation on a digital smile photograph",
     keyTakeaways: [
       "Consumer AI smile tools utilize convolutional neural networks (CNNs) and facial landmark detectors to map visible features on 2D images.",
@@ -268,7 +268,7 @@ export const ARTICLES: Article[] = [
       role: "Information Literacy & Review Board",
     },
     readingTime: "7 min read",
-    featuredImage: "/images/articles/evaluating-online-health-information-credibility-guide.svg",
+    featuredImage: "/images/articles/evaluating-online-health-information-credibility-guide.jpg",
     heroImageAlt: "Checklist and analytical magnifying glass evaluating scientific sources and digital content credibility",
     keyTakeaways: [
       "Digital health content ranges from peer-reviewed clinical research to multi-topic informational roundups and commercial advertorials.",
@@ -326,7 +326,7 @@ export const ARTICLES: Article[] = [
       role: "Oral Health & Clinical Review",
     },
     readingTime: "8 min read",
-    featuredImage: "/images/articles/at-home-teeth-whitening-vs-professional-dental-care.svg",
+    featuredImage: "/images/articles/at-home-teeth-whitening-vs-professional-dental-care.jpg",
     heroImageAlt: "Comparison graphic illustrating at-home whitening strips versus custom clinical dental trays",
     keyTakeaways: [
       "Teeth whitening relies on oxidative bleaching agents (hydrogen peroxide or carbamide peroxide) that break down chromophore double bonds in enamel and dentin.",
@@ -386,7 +386,7 @@ export const ARTICLES: Article[] = [
       role: "Architectural & Ergonomics Team",
     },
     readingTime: "6 min read",
-    featuredImage: "/images/articles/smart-lighting-ergonomics-daily-smile-care-routines.svg",
+    featuredImage: "/images/articles/smart-lighting-ergonomics-daily-smile-care-routines.jpg",
     heroImageAlt: "Modern bathroom vanity featuring high CRI cross-lighting mirror and brass accents",
     keyTakeaways: [
       "Standard overhead bathroom downlights create harsh facial shadows that obscure the gingival margins and posterior teeth.",
@@ -438,7 +438,7 @@ export const ARTICLES: Article[] = [
       role: "Digital Publishing Strategy",
     },
     readingTime: "7 min read",
-    featuredImage: "/images/articles/digital-publishing-models-in-specialized-wellness.svg",
+    featuredImage: "/images/articles/digital-publishing-models-in-specialized-wellness.jpg",
     heroImageAlt: "Diagram representing digital media entity clusters, topical relevance, and publishing architecture",
     keyTakeaways: [
       "Online media has shifted from narrow single-topic blogs to multi-category editorial platforms that satisfy broad user intent.",
@@ -489,7 +489,7 @@ export const ARTICLES: Article[] = [
       role: "Oral Health & Clinical Review",
     },
     readingTime: "8 min read",
-    featuredImage: "/images/articles/daily-enamel-remineralization-diet-calcium-saliva.svg",
+    featuredImage: "/images/articles/daily-enamel-remineralization-diet-calcium-saliva.jpg",
     heroImageAlt: "Diagram illustrating hydroxyapatite crystal lattice and salivary ion remineralization dynamics",
     keyTakeaways: [
       "Tooth enamel undergoes a continuous dynamic equilibrium between acid demineralization and mineral remineralization.",
@@ -540,7 +540,7 @@ export const ARTICLES: Article[] = [
       role: "Information Literacy & Review Board",
     },
     readingTime: "7 min read",
-    featuredImage: "/images/articles/modern-dental-consultations-what-to-ask-your-dentist.svg",
+    featuredImage: "/images/articles/modern-dental-consultations-what-to-ask-your-dentist.jpg",
     heroImageAlt: "Patient and dentist reviewing digital dental radiograph charts and diagnostic treatment options",
     keyTakeaways: [
       "A clinical dental exam should always precede cosmetic treatments like bleaching, veneers, or orthodontic aligners.",
@@ -591,7 +591,7 @@ export const ARTICLES: Article[] = [
       role: "Technology & Software Engineering Team",
     },
     readingTime: "8 min read",
-    featuredImage: "/images/articles/the-future-of-digital-imaging-in-preventative-oral-care.svg",
+    featuredImage: "/images/articles/the-future-of-digital-imaging-in-preventative-oral-care.jpg",
     heroImageAlt: "Intraoral 3D digital scanner projecting laser grid mesh over dental arch for preventative diagnostics",
     keyTakeaways: [
       "Digital intraoral scanners replace traditional uncomfortable silicone impressions with millions of point-cloud 3D coordinates.",

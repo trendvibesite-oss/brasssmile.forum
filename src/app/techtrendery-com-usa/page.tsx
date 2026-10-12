@@ -178,8 +178,8 @@ export default function TechtrenderyArticlePage() {
       {/* Featured Header Image */}
       <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-amber-950/10 bg-slate-900 shadow-md">
         <Image
-          src="/images/articles/techtrendery-com-usa-featured.svg"
-          alt="TechTrendery.com USA platform review showing browser mockup, multi-topic publishing architecture, and digital verification analytics"
+          src="/images/articles/techtrendery-com-usa-featured.jpg"
+          alt="TechTrendery.com USA platform review showing modern digital publishing workstation with laptop, editorial notes, and website analytics"
           fill
           priority
           sizes="(max-width: 768px) 100vw, 800px"
@@ -352,16 +352,16 @@ export default function TechtrenderyArticlePage() {
 
           {/* Image 1: Geographic distinctions */}
           <figure className="my-8 overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-md">
-            <div className="relative aspect-[1000/520] w-full">
+            <div className="relative aspect-[16/9] w-full">
               <Image
-                src="/images/articles/techtrendery-usa-domain-audience-matrix.svg"
-                alt="Geographic distinction analysis comparing US audience relevance, US-focused content, US-based publisher requirements, and .com commercial domain extension"
+                src="/images/articles/techtrendery-usa-domain-audience-matrix.jpg"
+                alt="Digital business strategy and website analytics display illustrating US audience traffic and domain metrics"
                 fill
                 sizes="(max-width: 768px) 100vw, 800px"
-                className="object-contain"
+                className="object-cover"
               />
             </div>
-            <figcaption className="bg-slate-900/90 px-4 py-2 text-center text-xs text-slate-400 border-t border-slate-800">
+            <figcaption className="bg-slate-900/90 px-4 py-2.5 text-center text-xs text-slate-300 border-t border-slate-800">
               Figure 1: Distinguishing between US audience readership, editorial focus, corporate headquarters, and top-level domain extensions.
             </figcaption>
           </figure>
@@ -552,16 +552,16 @@ export default function TechtrenderyArticlePage() {
 
           {/* Image 2: Multi-Topic Content Architecture */}
           <figure className="my-8 overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-md">
-            <div className="relative aspect-[1000/560] w-full">
+            <div className="relative aspect-[16/9] w-full">
               <Image
-                src="/images/articles/techtrendery-multitopic-content-architecture.svg"
-                alt="TechTrendery.com multi-topic editorial category architecture mapping technology, business, news, health, education, law, and home improvement"
+                src="/images/articles/techtrendery-multitopic-content-architecture.jpg"
+                alt="Modern creative newsroom workspace with tablet, digital media layout, and multi-topic editorial publishing tools"
                 fill
                 sizes="(max-width: 768px) 100vw, 800px"
-                className="object-contain"
+                className="object-cover"
               />
             </div>
-            <figcaption className="bg-slate-900/90 px-4 py-2 text-center text-xs text-slate-400 border-t border-slate-800">
+            <figcaption className="bg-slate-900/90 px-4 py-2.5 text-center text-xs text-slate-300 border-t border-slate-800">
               Figure 2: Overview of TechTrendery&apos;s 7 editorial verticals and primary verification benchmarks.
             </figcaption>
           </figure>
@@ -819,16 +819,16 @@ export default function TechtrenderyArticlePage() {
 
           {/* Image 3: 6-point verification checklist */}
           <figure className="my-8 overflow-hidden rounded-2xl border border-slate-200 bg-slate-900 shadow-md">
-            <div className="relative aspect-[1000/520] w-full">
+            <div className="relative aspect-[16/9] w-full">
               <Image
-                src="/images/articles/techtrendery-editorial-verification-checklist.svg"
-                alt="6-point editorial verification checklist assessing accuracy, freshness, specificity, transparency, practical value, and limitations"
+                src="/images/articles/techtrendery-editorial-verification-checklist.jpg"
+                alt="Editorial analyst reviewing digital documentation, checklists, and source verification materials on modern laptop"
                 fill
                 sizes="(max-width: 768px) 100vw, 800px"
-                className="object-contain"
+                className="object-cover"
               />
             </div>
-            <figcaption className="bg-slate-900/90 px-4 py-2 text-center text-xs text-slate-400 border-t border-slate-800">
+            <figcaption className="bg-slate-900/90 px-4 py-2.5 text-center text-xs text-slate-300 border-t border-slate-800">
               Figure 3: Key evaluative criteria for reviewing online technology publications, guides, and claims.
             </figcaption>
           </figure>
