@@ -28,10 +28,10 @@ export default function NotFound() {
           Return to Homepage
         </Link>
         <Link
-          href="/healthcare"
+          href="/blog"
           className="rounded-xl border border-amber-300 bg-amber-50 px-6 py-3 text-sm font-semibold text-amber-950 hover:bg-amber-100 transition-colors"
         >
-          Browse Smile Care Guides
+          Browse Blog &amp; Guides
         </Link>
         <Link
           href="/about"

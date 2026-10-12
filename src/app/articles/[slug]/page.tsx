@@ -2,6 +2,7 @@ import React from "react";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumb";
 import FAQAccordion from "@/components/FAQAccordion";
 import ArticleCard from "@/components/ArticleCard";
@@ -147,6 +148,20 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           </div>
         </div>
       </header>
+
+      {/* Featured Header Image */}
+      {article.featuredImage && (
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-amber-950/10 bg-slate-900 shadow-md">
+          <Image
+            src={article.featuredImage}
+            alt={article.title}
+            fill
+            priority
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="object-cover"
+          />
+        </div>
+      )}
 
       {/* Key Takeaways Box */}
       <section className="rounded-2xl border border-amber-200 bg-amber-50/60 p-6 shadow-sm">

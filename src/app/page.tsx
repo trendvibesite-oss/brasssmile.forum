@@ -115,12 +115,12 @@ export default function HomePage() {
 
               {/* CTAs */}
               <div className="flex flex-wrap items-center gap-4 pt-2">
-                <a
-                  href="#what-is-brasssmile"
+                <Link
+                  href="/blog"
                   className="rounded-xl bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white shadow-md hover:bg-slate-800 transition-all hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-600"
                 >
-                  Explore BrassSmile Guide
-                </a>
+                  Explore Guides
+                </Link>
                 <Link
                   href="/healthcare"
                   className="rounded-xl border border-amber-300 bg-amber-50/80 px-6 py-3.5 text-sm font-semibold text-amber-950 hover:bg-amber-100 transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-600"
@@ -466,7 +466,7 @@ export default function HomePage() {
               <div className="h-1 w-16 bg-amber-500 rounded mt-2" />
             </div>
             <Link
-              href="/healthcare"
+              href="/blog"
               className="text-sm font-semibold text-amber-900 hover:text-amber-700 flex items-center gap-1"
             >
               Browse all library guides &rarr;
@@ -607,10 +607,10 @@ export default function HomePage() {
 
             <div className="pt-4 flex flex-wrap items-center gap-4">
               <Link
-                href="/healthcare"
+                href="/blog"
                 className="rounded-xl bg-amber-500 px-6 py-3.5 text-sm font-bold text-slate-950 hover:bg-amber-400 transition-colors shadow-md"
               >
-                Read Healthcare &amp; Smile Guides
+                Explore All Guides &amp; Blog
               </Link>
               <Link
                 href="/about"

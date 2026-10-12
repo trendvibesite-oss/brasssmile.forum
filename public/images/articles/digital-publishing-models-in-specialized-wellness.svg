@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none">
+  <rect width="640" height="360" fill="#0F172A"/>
+  <circle cx="320" cy="175" r="38" fill="#1E293B" stroke="#C59B27" stroke-width="2"/>
+  <text x="320" y="178" fill="#FDE68A" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">BrassSmile</text>
+  <circle cx="220" cy="120" r="24" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+  <text x="220" y="123" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Tech</text>
+  <circle cx="420" cy="120" r="24" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+  <text x="420" y="123" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Health</text>
+  <circle cx="220" cy="230" r="24" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+  <text x="220" y="233" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Business</text>
+  <circle cx="420" cy="230" r="24" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+  <text x="420" y="233" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Services</text>
+  <line x1="320" y1="175" x2="220" y2="120" stroke="#C59B27" stroke-width="1" stroke-opacity="0.5"/>
+  <line x1="320" y1="175" x2="420" y2="120" stroke="#C59B27" stroke-width="1" stroke-opacity="0.5"/>
+  <line x1="320" y1="175" x2="220" y2="230" stroke="#C59B27" stroke-width="1" stroke-opacity="0.5"/>
+  <line x1="320" y1="175" x2="420" y2="230" stroke="#C59B27" stroke-width="1" stroke-opacity="0.5"/>
+  <rect x="30" y="30" width="150" height="28" rx="14" fill="#1E293B" stroke="#C59B27" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="105" y="48" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1">MEDIA STRATEGY</text>
+  <text x="320" y="315" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Entity SEO &amp; Multi-Topic Authority</text>
+</svg>

@@ -82,6 +82,17 @@ export default function Navbar() {
               About
             </Link>
 
+            <Link
+              href="/blog"
+              className={`px-3.5 py-2 text-sm font-semibold rounded-md transition-colors ${
+                isCurrent("/blog")
+                  ? "text-amber-900 bg-amber-50 font-bold"
+                  : "text-slate-700 hover:text-slate-900 hover:bg-slate-50"
+              }`}
+            >
+              Blog
+            </Link>
+
             {/* Categories Dropdown */}
             <div className="relative" ref={dropdownRef}>
               <button
@@ -159,7 +170,7 @@ export default function Navbar() {
           {/* Desktop Right CTA */}
           <div className="hidden md:flex items-center gap-3">
             <Link
-              href="/healthcare"
+              href="/blog"
               className="inline-flex items-center justify-center rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-slate-800 hover:shadow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
             >
               Explore Guides
@@ -209,6 +220,14 @@ export default function Navbar() {
               >
                 About
               </Link>
+              <Link
+                href="/blog"
+                className={`block rounded-lg px-3 py-2 text-base font-medium ${
+                  isCurrent("/blog") ? "bg-amber-50 text-amber-950 font-bold" : "text-slate-700 hover:bg-slate-50"
+                }`}
+              >
+                Blog
+              </Link>
 
               {/* Mobile Categories Accordion */}
               <div className="pt-2 pb-1 border-t border-slate-100 my-2">
@@ -241,7 +260,7 @@ export default function Navbar() {
 
               <div className="mt-4 pt-4 border-t border-slate-100">
                 <Link
-                  href="/healthcare"
+                  href="/blog"
                   className="block w-full text-center rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow hover:bg-slate-800"
                 >
                   Explore BrassSmile Guides

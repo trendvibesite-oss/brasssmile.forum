@@ -21,10 +21,11 @@ export interface Article {
     role: string;
   };
   readingTime: string;
+  featuredImage: string;
   heroImageAlt: string;
   keyTakeaways: string[];
   toc: ArticleTOCItem[];
-  body: string[]; // Array of paragraphs / markdown-like blocks
+  body: string[];
   faqs: ArticleFAQ[];
   relatedSlugs: string[];
 }
@@ -43,6 +44,7 @@ export const ARTICLES: Article[] = [
       role: "Health & Science Editorial Team",
     },
     readingTime: "8 min read",
+    featuredImage: "/images/articles/understanding-tooth-discoloration-enamel-dentin.svg",
     heroImageAlt: "Cross-section anatomical diagram comparing tooth enamel, dentin, and light reflection",
     keyTakeaways: [
       "Tooth color is largely determined by the thickness and mineral density of enamel layered over yellow-tinted dentin.",
@@ -86,8 +88,8 @@ export const ARTICLES: Article[] = [
     ],
     relatedSlugs: [
       "at-home-teeth-whitening-vs-professional-dental-care",
+      "daily-enamel-remineralization-diet-calcium-saliva",
       "ai-smile-analysis-technology-capabilities-limits",
-      "evaluating-online-health-information-credibility-guide",
     ],
   },
   {
@@ -103,6 +105,7 @@ export const ARTICLES: Article[] = [
       role: "Technology & Software Engineering Team",
     },
     readingTime: "9 min read",
+    featuredImage: "/images/articles/ai-smile-analysis-technology-capabilities-limits.svg",
     heroImageAlt: "Visualization of facial landmark detection mesh and color segmentation on a digital smile photograph",
     keyTakeaways: [
       "Consumer AI smile tools utilize convolutional neural networks (CNNs) and facial landmark detectors to map visible features on 2D images.",
@@ -145,8 +148,8 @@ export const ARTICLES: Article[] = [
       },
     ],
     relatedSlugs: [
+      "the-future-of-digital-imaging-in-preventative-oral-care",
       "understanding-tooth-discoloration-enamel-dentin",
-      "at-home-teeth-whitening-vs-professional-dental-care",
       "evaluating-online-health-information-credibility-guide",
     ],
   },
@@ -163,6 +166,7 @@ export const ARTICLES: Article[] = [
       role: "Information Literacy & Review Board",
     },
     readingTime: "7 min read",
+    featuredImage: "/images/articles/evaluating-online-health-information-credibility-guide.svg",
     heroImageAlt: "Checklist and analytical magnifying glass evaluating scientific sources and digital content credibility",
     keyTakeaways: [
       "Digital health content ranges from peer-reviewed clinical research to multi-topic informational roundups and commercial advertorials.",
@@ -202,8 +206,8 @@ export const ARTICLES: Article[] = [
       },
     ],
     relatedSlugs: [
+      "modern-dental-consultations-what-to-ask-your-dentist",
       "understanding-tooth-discoloration-enamel-dentin",
-      "at-home-teeth-whitening-vs-professional-dental-care",
       "digital-publishing-models-in-specialized-wellness",
     ],
   },
@@ -220,6 +224,7 @@ export const ARTICLES: Article[] = [
       role: "Oral Health & Clinical Review",
     },
     readingTime: "8 min read",
+    featuredImage: "/images/articles/at-home-teeth-whitening-vs-professional-dental-care.svg",
     heroImageAlt: "Comparison graphic illustrating at-home whitening strips versus custom clinical dental trays",
     keyTakeaways: [
       "Teeth whitening relies on oxidative bleaching agents (hydrogen peroxide or carbamide peroxide) that break down chromophore double bonds in enamel and dentin.",
@@ -262,7 +267,7 @@ export const ARTICLES: Article[] = [
     ],
     relatedSlugs: [
       "understanding-tooth-discoloration-enamel-dentin",
-      "ai-smile-analysis-technology-capabilities-limits",
+      "daily-enamel-remineralization-diet-calcium-saliva",
       "evaluating-online-health-information-credibility-guide",
     ],
   },
@@ -279,6 +284,7 @@ export const ARTICLES: Article[] = [
       role: "Architectural & Ergonomics Team",
     },
     readingTime: "6 min read",
+    featuredImage: "/images/articles/smart-lighting-ergonomics-daily-smile-care-routines.svg",
     heroImageAlt: "Modern bathroom vanity featuring high CRI cross-lighting mirror and brass accents",
     keyTakeaways: [
       "Standard overhead bathroom downlights create harsh facial shadows that obscure the gingival margins and posterior teeth.",
@@ -330,6 +336,7 @@ export const ARTICLES: Article[] = [
       role: "Digital Publishing Strategy",
     },
     readingTime: "7 min read",
+    featuredImage: "/images/articles/digital-publishing-models-in-specialized-wellness.svg",
     heroImageAlt: "Diagram representing digital media entity clusters, topical relevance, and publishing architecture",
     keyTakeaways: [
       "Online media has shifted from narrow single-topic blogs to multi-category editorial platforms that satisfy broad user intent.",
@@ -365,6 +372,159 @@ export const ARTICLES: Article[] = [
     relatedSlugs: [
       "evaluating-online-health-information-credibility-guide",
       "ai-smile-analysis-technology-capabilities-limits",
+    ],
+  },
+  {
+    slug: "daily-enamel-remineralization-diet-calcium-saliva",
+    title: "Daily Enamel Remineralization: The Role of Salivary Buffers, Calcium & Bioavailable Minerals",
+    excerpt: "How saliva naturally defends tooth enamel against daily acid demineralization, and how fluoride, nano-hydroxyapatite, and bioavailable calcium phosphate reinforce tooth structure.",
+    categorySlug: "healthcare",
+    categoryName: "Healthcare",
+    publishedDate: "2026-09-08",
+    modifiedDate: "2026-10-05",
+    author: {
+      name: "BrassSmile Editorial Research Desk",
+      role: "Oral Health & Clinical Review",
+    },
+    readingTime: "8 min read",
+    featuredImage: "/images/articles/daily-enamel-remineralization-diet-calcium-saliva.svg",
+    heroImageAlt: "Diagram illustrating hydroxyapatite crystal lattice and salivary ion remineralization dynamics",
+    keyTakeaways: [
+      "Tooth enamel undergoes a continuous dynamic equilibrium between acid demineralization and mineral remineralization.",
+      "When oral pH drops below the critical threshold of 5.5, hydroxyapatite mineral crystals begin dissolving into free calcium and phosphate.",
+      "Saliva acts as the primary biological defense, providing bicarbonate buffers to neutralize acids and supersaturating the mouth with repair ions.",
+      "Fluoride transforms hydroxyapatite into fluorapatite, which possesses a lower critical pH dissolution point (4.5).",
+      "Nano-hydroxyapatite (nHAp) directly occludes exposed dentinal tubules and deposits synthetic mineral crystals along microscopic enamel fissures.",
+    ],
+    toc: [
+      { id: "demin-remin-cycle", title: "1. The Dynamic Demineralization-Remineralization Cycle" },
+      { id: "critical-ph", title: "2. The Critical pH Threshold (5.5 vs. 4.5)" },
+      { id: "saliva-defenses", title: "3. Salivary Buffers & Amylase Mechanics" },
+      { id: "fluoride-vs-nhap", title: "4. Biomimetic Agents: Fluoride vs. Nano-Hydroxyapatite" },
+      { id: "dietary-strategies", title: "5. Dietary Strategies for Maximum Enamel Resilience" },
+    ],
+    body: [
+      "While tooth enamel cannot grow back once completely worn away, living dental enamel is not completely static. Instead, it exists in a dynamic equilibrium of mineral exchange with oral fluids, constantly alternating between acid-induced demineralization and therapeutic remineralization.",
+      "Every time you consume fermentable carbohydrates or acidic beverages, acidogenic bacteria in dental plaque (such as Streptococcus mutans) metabolize sugars, releasing lactic and pyruvic acids. When the local pH drops below the critical threshold of approximately 5.5, hydrogen ions dissolve calcium and phosphate ions out of the hydroxyapatite crystalline lattice.",
+      "Fortunately, healthy saliva is nature's protective oral shield. Stimulated saliva contains high concentrations of sodium bicarbonate that rapidly buffer and neutralize organic acids, restoring oral pH to a safe physiological range (6.8 to 7.4) within 20 to 30 minutes.",
+      "Furthermore, saliva is supersaturated with bioavailable calcium and phosphate ions. When pH rises above 5.5, these salivary minerals precipitate back into porous, softened enamel micro-prisms, repairing incipient subsurface lesions before they progress into cavitated dental decay.",
+      "To assist natural salivary remineralization, dental science utilizes biomimetic remineralizing agents. Fluoride incorporates into the hydroxyapatite matrix to form fluorapatite, which possesses a significantly lower critical dissolution pH of 4.5, making enamel much more acid-resistant. Simultaneously, modern nano-hydroxyapatite (nHAp) toothpastes supply nanoscale synthetic hydroxyapatite crystals that physically integrate into micro-defects and seal open dentinal tubules to combat sensitivity.",
+    ],
+    faqs: [
+      {
+        question: "What is the critical pH for enamel erosion?",
+        answer: "Standard enamel begins demineralizing when oral pH drops below 5.5. Enamel reinforced with fluorapatite resists acid dissolution down to approximately pH 4.5.",
+      },
+      {
+        question: "Does chewing xylitol gum stimulate remineralization?",
+        answer: "Yes. Chewing sugar-free gum mechanically stimulates salivary glands, increasing bicarbonate buffer production and speeding up the return to neutral oral pH after eating.",
+      },
+    ],
+    relatedSlugs: [
+      "understanding-tooth-discoloration-enamel-dentin",
+      "at-home-teeth-whitening-vs-professional-dental-care",
+    ],
+  },
+  {
+    slug: "modern-dental-consultations-what-to-ask-your-dentist",
+    title: "Navigating Modern Dental Consultations: Essential Diagnostic Questions & Second Opinions",
+    excerpt: "A practical patient advocacy guide on preparing for cosmetic and restorative dental visits, evaluating treatment plans, understanding fee codes, and seeking second opinions.",
+    categorySlug: "services",
+    categoryName: "Services",
+    publishedDate: "2026-09-24",
+    modifiedDate: "2026-10-06",
+    author: {
+      name: "BrassSmile Editorial Research Desk",
+      role: "Information Literacy & Review Board",
+    },
+    readingTime: "7 min read",
+    featuredImage: "/images/articles/modern-dental-consultations-what-to-ask-your-dentist.svg",
+    heroImageAlt: "Patient and dentist reviewing digital dental radiograph charts and diagnostic treatment options",
+    keyTakeaways: [
+      "A clinical dental exam should always precede cosmetic treatments like bleaching, veneers, or orthodontic aligners.",
+      "Ask your practitioner to explain the root biological cause of any discoloration (stain, thin enamel, dead pulp, or active decay).",
+      "Inquire whether proposed cosmetic interventions are reversible or require permanent tooth reduction (e.g. veneer prep).",
+      "Request itemized diagnostic codes and written estimates before consenting to multi-step cosmetic rehabilitation.",
+      "Seeking a second opinion from an independent board-certified specialist is standard practice for extensive restorative procedures.",
+    ],
+    toc: [
+      { id: "pre-consultation", title: "1. Preparing for Your Consultation" },
+      { id: "key-diagnostic-questions", title: "2. Five Essential Diagnostic Questions" },
+      { id: "evaluating-treatment-plans", title: "3. Reversible vs. Irreversible Cosmetic Dentistry" },
+      { id: "understanding-estimates", title: "4. Decoding Itemized Dental Estimates" },
+      { id: "second-opinions", title: "5. When & How to Obtain a Clinical Second Opinion" },
+    ],
+    body: [
+      "Stepping into a dental practice for a cosmetic or restorative consultation can often feel intimidating. Technical jargon, unfamiliar radiographic screens, and varying treatment recommendations make it essential for patients to approach appointments with informed advocacy.",
+      "Before discussing cosmetic smile enhancements—whether professional bleaching, composite bonding, or porcelain veneers—a comprehensive diagnostic checkup is mandatory. A healthy foundation must always take priority over aesthetics: active periodontal disease, interproximal caries, or apical tooth infections must be addressed first.",
+      "When discussing tooth shade or aesthetic alignment, patients should ask their dentist targeted questions: 'Is my discoloration extrinsic surface staining or internal dentin darkening?', 'Will the proposed treatment require irreversible enamel shaving?', and 'What is the projected clinical lifespan and maintenance requirement of this restoration?'",
+      "Understanding the distinction between additive, reversible procedures (such as minimal-prep bonding or professional trays) and irreversible procedures (such as full veneer preparations that remove healthy natural enamel) empowers patients to make choices aligned with their long-term oral health.",
+      "If you receive a complex or high-cost treatment plan, remember that seeking a second clinical opinion is normal, encouraged, and respected throughout healthcare. A second diagnostic review provides clarity, reassurance, and confirmation of clinical consensus.",
+    ],
+    faqs: [
+      {
+        question: "Is it rude to ask for a second dental opinion?",
+        answer: "Not at all. Reputable dentists welcome second opinions for complex restorative, cosmetic, or surgical procedures, and will readily share your digital radiographs with another licensed provider.",
+      },
+      {
+        question: "Do porcelain veneers require permanent tooth enamel removal?",
+        answer: "Traditional porcelain veneers generally require removing 0.3mm to 0.7mm of outer enamel to accommodate the ceramic shell, making it an irreversible lifetime commitment requiring future replacement.",
+      },
+    ],
+    relatedSlugs: [
+      "evaluating-online-health-information-credibility-guide",
+      "at-home-teeth-whitening-vs-professional-dental-care",
+    ],
+  },
+  {
+    slug: "the-future-of-digital-imaging-in-preventative-oral-care",
+    title: "Intraoral 3D Scanners & Optical Coherence: The Future of Digital Preventative Diagnostics",
+    excerpt: "Examining next-generation dental imaging: how 3D optical triangulation, near-infrared transillumination (NIRI), and AI algorithms assist dentists in catching decay before it breaches enamel.",
+    categorySlug: "tech",
+    categoryName: "Tech",
+    publishedDate: "2026-10-01",
+    modifiedDate: "2026-10-07",
+    author: {
+      name: "BrassSmile Technical Editorial Board",
+      role: "Technology & Software Engineering Team",
+    },
+    readingTime: "8 min read",
+    featuredImage: "/images/articles/the-future-of-digital-imaging-in-preventative-oral-care.svg",
+    heroImageAlt: "Intraoral 3D digital scanner projecting laser grid mesh over dental arch for preventative diagnostics",
+    keyTakeaways: [
+      "Digital intraoral scanners replace traditional uncomfortable silicone impressions with millions of point-cloud 3D coordinates.",
+      "Near-Infrared Transillumination (NIRI) passes harmless infrared light through enamel, lighting up interproximal decay without ionizing radiation.",
+      "Longitudinal 3D digital wear tracking allows dentists to detect microscopic enamel erosion and bruxism years before visible tooth loss.",
+      "Clinical optical imaging differs fundamentally from consumer 2D selfies by capturing calibrated sub-millimeter anatomical geometry.",
+      "Emerging AI in clinical dental software assists licensed practitioners with radiographic anomaly detection without replacing clinical judgment.",
+    ],
+    toc: [
+      { id: "optical-triangulation", title: "1. How 3D Intraoral Scanners Capture Teeth" },
+      { id: "niri-diagnostics", title: "2. Near-Infrared Transillumination (NIRI) vs. X-Rays" },
+      { id: "longitudinal-wear", title: "3. Time-Lapse 3D Occlusal Wear Tracking" },
+      { id: "in-clinic-ai", title: "4. Clinical AI Radiographic Assistance" },
+      { id: "patient-communication", title: "5. Enhancing Patient Transparency & Preventative Care" },
+    ],
+    body: [
+      "Dental technology is undergoing a quiet revolution, migrating from analog wax molds and static 2D film radiographs to dynamic 3D optical scanning. These high-precision instruments are fundamentally reshaping preventative care and patient communication.",
+      "An intraoral 3D scanner utilizes structured light projection and confocal microscopy, capturing thousands of images per second as a compact wand passes over the dental arches. Advanced software stitches these optical reflections into a dense 3D point cloud, creating a photorealistic, sub-millimeter digital twin of the patient's dentition.",
+      "Beyond replacing gooey impression materials, digital scanners now integrate diagnostic optical wavelengths such as Near-Infrared Transillumination (NIRI). NIRI passes harmless infrared light directly through tooth enamel. Because healthy enamel appears translucent while early demineralized lesions scatter the light and appear dark, dentists can detect early interproximal caries between tight teeth without exposing the patient to ionizing radiation.",
+      "Another transformative capability is longitudinal wear tracking. By comparing 3D scans taken two years apart using color-coded differential heat maps, software highlights subtle enamel wear (such as nighttime grinding or acid erosion) measured in mere microns—enabling intervention long before noticeable structural damage occurs.",
+      "These clinical optical advancements illustrate the vast gulf between professional in-clinic digital diagnostics and consumer smartphone photo filters. In the clinical realm, digital tools empower dentists with objective, reproducible biological data to preserve natural tooth structure for a lifetime.",
+    ],
+    faqs: [
+      {
+        question: "Does an intraoral 3D scan use ionizing radiation?",
+        answer: "No. Intraoral 3D scanners use safe optical visible light and near-infrared light sensors, producing zero ionizing radiation.",
+      },
+      {
+        question: "Can 3D scanners detect early tooth decay between teeth?",
+        answer: "Yes. Scanners equipped with Near-Infrared Transillumination (NIRI) can visualize early enamel demineralization between teeth where standard visual inspection cannot reach.",
+      },
+    ],
+    relatedSlugs: [
+      "ai-smile-analysis-technology-capabilities-limits",
+      "understanding-tooth-discoloration-enamel-dentin",
     ],
   },
 ];
