@@ -1,6 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -49,6 +49,11 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
   const { slug } = await params;
+
+  if (slug === "techtrendery-com-usa") {
+    redirect("/techtrendery-com-usa");
+  }
+
   const article = getArticleBySlug(slug);
 
   if (!article) {

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" fill="none">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="cardGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="560" rx="16" fill="url(#bgGrad3)"/>
+  <rect width="1000" height="560" rx="16" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 36)">
+    <rect width="170" height="24" rx="12" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-width="1"/>
+    <text x="85" y="16" fill="#FCD34D" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="0.5">EDITORIAL TAXONOMY</text>
+    <text x="0" y="52" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="22" font-weight="800">TechTrendery.com Content Categories &amp; Verification Paths</text>
+    <text x="0" y="74" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">Mapping typical reader interests against recommended independent verification standards.</text>
+  </g>
+
+  <!-- Content Rows Grid -->
+  <g transform="translate(40, 130)">
+    <!-- Table Header Bar -->
+    <rect width="920" height="32" rx="6" fill="#1E293B"/>
+    <text x="20" y="21" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="700">CATEGORY</text>
+    <text x="230" y="21" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="700">TYPICAL READER INTEREST</text>
+    <text x="560" y="21" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="11" font-weight="700">RECOMMENDED VERIFICATION</text>
+
+    <!-- Row 1: Technology -->
+    <g transform="translate(0, 42)">
+      <rect width="920" height="48" rx="6" fill="url(#cardGrad3)" stroke="#334155" stroke-width="1"/>
+      <circle cx="28" cy="24" r="6" fill="#3B82F6"/>
+      <text x="44" y="28" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Technology</text>
+      <text x="230" y="28" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Software, digital services, and emerging tools</text>
+      <text x="560" y="28" fill="#93C5FD" font-family="system-ui, sans-serif" font-size="12">Official documentation &amp; technical testing</text>
+    </g>
+
+    <!-- Row 2: Business -->
+    <g transform="translate(0, 96)">
+      <rect width="920" height="48" rx="6" fill="url(#cardGrad3)" stroke="#334155" stroke-width="1"/>
+      <circle cx="28" cy="24" r="6" fill="#F59E0B"/>
+      <text x="44" y="28" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Business</text>
+      <text x="230" y="28" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Productivity, marketing, and business operations</text>
+      <text x="560" y="28" fill="#FDE68A" font-family="system-ui, sans-serif" font-size="12">Industry evidence &amp; practical applicability</text>
+    </g>
+
+    <!-- Row 3: News -->
+    <g transform="translate(0, 150)">
+      <rect width="920" height="48" rx="6" fill="url(#cardGrad3)" stroke="#334155" stroke-width="1"/>
+      <circle cx="28" cy="24" r="6" fill="#94A3B8"/>
+      <text x="44" y="28" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">News</text>
+      <text x="230" y="28" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Developments and current-interest topics</text>
+      <text x="560" y="28" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12">Publication dates &amp; original reporting</text>
+    </g>
+
+    <!-- Row 4: Health -->
+    <g transform="translate(0, 204)">
+      <rect width="920" height="48" rx="6" fill="url(#cardGrad3)" stroke="#334155" stroke-width="1"/>
+      <circle cx="28" cy="24" r="6" fill="#10B981"/>
+      <text x="44" y="28" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Health</text>
+      <text x="230" y="28" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">General health and wellness information</text>
+      <text x="560" y="28" fill="#6EE7B7" font-family="system-ui, sans-serif" font-size="12">Medical evidence &amp; qualified practitioners</text>
+    </g>
+
+    <!-- Row 5: Education -->
+    <g transform="translate(0, 258)">
+      <rect width="920" height="48" rx="6" fill="url(#cardGrad3)" stroke="#334155" stroke-width="1"/>
+      <circle cx="28" cy="24" r="6" fill="#06B6D4"/>
+      <text x="44" y="28" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Education</text>
+      <text x="230" y="28" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Learning resources and academic explanations</text>
+      <text x="560" y="28" fill="#67E8F9" font-family="system-ui, sans-serif" font-size="12">Textbooks &amp; recognized academic citations</text>
+    </g>
+
+    <!-- Row 6: Law -->
+    <g transform="translate(0, 312)">
+      <rect width="920" height="48" rx="6" fill="url(#cardGrad3)" stroke="#334155" stroke-width="1"/>
+      <circle cx="28" cy="24" r="6" fill="#8B5CF6"/>
+      <text x="44" y="28" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Law</text>
+      <text x="230" y="28" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Legal terminology and general procedures</text>
+      <text x="560" y="28" fill="#C4B5FD" font-family="system-ui, sans-serif" font-size="12">Applicable jurisdiction &amp; government codes</text>
+    </g>
+
+    <!-- Row 7: Home Improvement -->
+    <g transform="translate(0, 366)">
+      <rect width="920" height="48" rx="6" fill="url(#cardGrad3)" stroke="#334155" stroke-width="1"/>
+      <circle cx="28" cy="24" r="6" fill="#EC4899"/>
+      <text x="44" y="28" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Home Impr.</text>
+      <text x="230" y="28" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Household projects, styling and maintenance</text>
+      <text x="560" y="28" fill="#F472B6" font-family="system-ui, sans-serif" font-size="12">Manufacturer manuals &amp; licensed trade safety</text>
+    </g>
+  </g>
+</svg>

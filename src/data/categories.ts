@@ -30,7 +30,7 @@ export const CATEGORIES: Category[] = [
     description: "Analysis of online publishing economics, digital brand positioning, domain identity, and consumer trust.",
     longDescription: "Understanding how modern digital brands operate requires examining publishing models, entity authority, editorial independence, and the business strategies that shape multi-topic online magazines.",
     iconName: "business",
-    articleCount: 3,
+    articleCount: 4,
     featuredTopics: ["Publishing Economics", "Brand Positioning", "Domain Strategy", "Consumer Trust"],
   },
   {

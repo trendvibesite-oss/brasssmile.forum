@@ -9,6 +9,11 @@ interface ArticleCardProps {
 }
 
 export default function ArticleCard({ article, featured = false }: ArticleCardProps) {
+  const articleHref =
+    article.slug === "techtrendery-com-usa"
+      ? "/techtrendery-com-usa"
+      : `/articles/${article.slug}`;
+
   return (
     <article
       className={`group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-amber-950/10 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-amber-400 hover:shadow-xl ${
@@ -80,7 +85,7 @@ export default function ArticleCard({ article, featured = false }: ArticleCardPr
               featured ? "text-xl sm:text-2xl mb-3" : "text-lg mb-2"
             }`}
           >
-            <Link href={`/articles/${article.slug}`}>
+            <Link href={articleHref}>
               <span className="absolute inset-0" aria-hidden="true" />
               {article.title}
             </Link>

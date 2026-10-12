@@ -26,7 +26,9 @@ export function constructMetadata({
   const fullTitle = canonicalPath === "" ? title : `${title} | ${SITE_NAME}`;
 
   return {
-    title: fullTitle,
+    title: {
+      absolute: fullTitle,
+    },
     description,
     alternates: {
       canonical: url,

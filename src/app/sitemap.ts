@@ -63,7 +63,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Article pages
   const articlePages: MetadataRoute.Sitemap = ARTICLES.map((article) => ({
-    url: `${BASE_URL}/articles/${article.slug}`,
+    url:
+      article.slug === "techtrendery-com-usa"
+        ? `${BASE_URL}/techtrendery-com-usa`
+        : `${BASE_URL}/articles/${article.slug}`,
     lastModified: new Date(article.modifiedDate).toISOString(),
     changeFrequency: "monthly",
     priority: 0.8,
