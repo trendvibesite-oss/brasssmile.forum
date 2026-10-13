@@ -101,9 +101,7 @@ export default function TechtrenderyArticlePage() {
   const faqSchema = getFAQSchema(TECHTRENDERY_FAQS);
 
   const relatedArticles = ARTICLES.filter(
-    (a) =>
-      a.slug !== "techtrendery-com-usa" &&
-      (a.categorySlug === "business" || a.slug === "evaluating-online-health-information-credibility-guide")
+    (a) => a.slug !== "techtrendery-com-usa"
   ).slice(0, 2);
 
   return (

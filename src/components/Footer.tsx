@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import { CATEGORIES } from "@/data/categories";
+import { getArticlesByCategory } from "@/data/articles";
 
 export default function Footer() {
   const currentYear = 2026;
@@ -69,14 +70,19 @@ export default function Footer() {
               Categories
             </h3>
             <ul className="mt-4 space-y-2.5 text-sm" role="list">
-              {CATEGORIES.map((cat) => (
-                <li key={cat.slug}>
-                  <Link href={cat.href} className="hover:text-amber-300 transition-colors flex items-center justify-between">
-                    <span>{cat.name}</span>
-                    <span className="text-xs text-slate-500 font-mono">({cat.articleCount})</span>
-                  </Link>
-                </li>
-              ))}
+              {CATEGORIES.map((cat) => {
+                const count = getArticlesByCategory(cat.slug).length;
+                return (
+                  <li key={cat.slug}>
+                    <Link href={cat.href} className="hover:text-amber-300 transition-colors flex items-center justify-between">
+                      <span>{cat.name}</span>
+                      {count > 0 && (
+                        <span className="text-xs text-slate-500 font-mono">({count})</span>
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 

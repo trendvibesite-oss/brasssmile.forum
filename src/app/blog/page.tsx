@@ -41,7 +41,7 @@ export default function BlogPage() {
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-amber-100/70 px-3.5 py-1 text-xs font-semibold text-amber-950">
             <span className="flex h-2 w-2 rounded-full bg-amber-600 animate-pulse" />
-            <span>BrassSmile Knowledge Library &bull; {sortedArticles.length} Recent Guides</span>
+            <span>BrassSmile Knowledge Library &bull; {sortedArticles.length} Recent {sortedArticles.length === 1 ? "Guide" : "Guides"}</span>
           </div>
 
           <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
@@ -84,7 +84,7 @@ export default function BlogPage() {
               All Recent Publications
             </h2>
             <p className="text-xs text-slate-500 mt-0.5">
-              Showing {sortedArticles.length} peer-reviewed guides in a 3-column editorial layout
+              Showing {sortedArticles.length} {sortedArticles.length === 1 ? "publication" : "publications"} in a 3-column editorial layout
             </p>
           </div>
           <span className="text-xs font-mono text-amber-900 bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200">

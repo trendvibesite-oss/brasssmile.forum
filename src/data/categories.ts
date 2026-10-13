@@ -6,7 +6,7 @@ export interface Category {
   longDescription: string;
   tagline: string;
   iconName: "tech" | "business" | "services" | "home-decor" | "healthcare";
-  articleCount: number;
+  articleCount?: number;
   featuredTopics: string[];
 }
 

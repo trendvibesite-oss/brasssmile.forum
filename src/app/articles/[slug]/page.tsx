@@ -7,9 +7,6 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FAQAccordion from "@/components/FAQAccordion";
 import ArticleCard from "@/components/ArticleCard";
 import MedicalDisclaimerBanner from "@/components/MedicalDisclaimerBanner";
-import ToothStructureGraphic from "@/components/visuals/ToothStructureGraphic";
-import DiscolorationFactorsGraphic from "@/components/visuals/DiscolorationFactorsGraphic";
-import AiVsClinicalGraphic from "@/components/visuals/AiVsClinicalGraphic";
 import { ARTICLES, getArticleBySlug } from "@/data/articles";
 import { constructMetadata, getArticleSchema, getFAQSchema, SITE_URL } from "@/lib/seo";
 
@@ -70,10 +67,15 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     authorName: article.author.name,
   });
 
-  const faqSchema = article.faqs.length > 0 ? getFAQSchema(article.faqs) : null;
-  const relatedArticles = article.relatedSlugs
-    .map((s) => getArticleBySlug(s))
-    .filter((a): a is typeof article => Boolean(a));
+  const faqSchema = article.faqs && article.faqs.length > 0 ? getFAQSchema(article.faqs) : null;
+
+  const relatedArticles = (
+    article.relatedSlugs && article.relatedSlugs.length > 0
+      ? article.relatedSlugs
+          .map((s) => getArticleBySlug(s))
+          .filter((a): a is typeof article => Boolean(a))
+      : ARTICLES.filter((a) => a.slug !== article.slug)
+  ).slice(0, 2);
 
   return (
     <article className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8 space-y-10">
@@ -206,17 +208,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             ))}
           </ol>
         </nav>
-      )}
-
-      {/* Inline Graphic based on slug */}
-      {article.slug === "understanding-tooth-discoloration-enamel-dentin" && (
-        <ToothStructureGraphic />
-      )}
-      {article.slug === "ai-smile-analysis-technology-capabilities-limits" && (
-        <AiVsClinicalGraphic />
-      )}
-      {article.slug === "at-home-teeth-whitening-vs-professional-dental-care" && (
-        <DiscolorationFactorsGraphic />
       )}
 
       {/* Health Disclaimer Banner */}

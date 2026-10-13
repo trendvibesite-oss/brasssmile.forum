@@ -10,9 +10,10 @@ interface ArticleCardProps {
 
 export default function ArticleCard({ article, featured = false }: ArticleCardProps) {
   const articleHref =
-    article.slug === "techtrendery-com-usa"
+    article.customPath ||
+    (article.slug === "techtrendery-com-usa"
       ? "/techtrendery-com-usa"
-      : `/articles/${article.slug}`;
+      : `/articles/${article.slug}`);
 
   return (
     <article

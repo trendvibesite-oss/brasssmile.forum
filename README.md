@@ -30,13 +30,12 @@ BrassSmile (https://brasssmile.forum/)
 │   ├── /services/ (Consultation standards, finding verified providers)
 │   └── /home-decor/ (Task lighting CRI, vanity ergonomics, sanitary design)
 │
-├── Article Knowledge Base (/articles/[slug]/):
-│   ├── /articles/understanding-tooth-discoloration-enamel-dentin/
-│   ├── /articles/ai-smile-analysis-technology-capabilities-limits/
-│   ├── /articles/evaluating-online-health-information-credibility-guide/
-│   ├── /articles/at-home-teeth-whitening-vs-professional-dental-care/
-│   ├── /articles/smart-lighting-ergonomics-daily-smile-care-routines/
-│   └── /articles/digital-publishing-models-in-specialized-wellness/
+├── Published Articles & Guides:
+│   ├── /techtrendery-com-usa/ (Website Guide, Features, and Content Review)
+│   └── /articles/[slug]/ (Dynamic article route for new publications)
+│
+├── Blog Repository (/blog/):
+│   └── /blog (All recent publications in a responsive 3-column editorial grid)
 │
 ├── Trust & Legal Pages:
 │   ├── /disclaimer/ (Comprehensive Health & Medical Information Disclaimer)

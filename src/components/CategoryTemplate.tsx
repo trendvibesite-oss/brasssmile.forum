@@ -88,13 +88,13 @@ export default function CategoryTemplate({ category }: CategoryTemplateProps) {
           </div>
         ) : (
           <div className="rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center text-slate-500">
-            <p className="font-medium text-slate-700">New guides currently in peer editorial review.</p>
-            <p className="text-xs text-slate-400 mt-1">Check back shortly or explore our healthcare library.</p>
+            <p className="font-medium text-slate-700">New guides currently in editorial review.</p>
+            <p className="text-xs text-slate-400 mt-1">Check back shortly or explore our published guides library.</p>
             <Link
-              href="/healthcare"
+              href="/blog"
               className="mt-4 inline-block text-xs font-bold text-amber-800 underline"
             >
-              Browse Healthcare &rarr;
+              Browse All Guides &rarr;
             </Link>
           </div>
         )}

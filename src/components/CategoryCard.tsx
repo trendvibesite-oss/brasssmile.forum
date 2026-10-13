@@ -1,12 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import { Category } from "@/data/categories";
+import { getArticlesByCategory } from "@/data/articles";
 
 interface CategoryCardProps {
   category: Category;
 }
 
 export default function CategoryCard({ category }: CategoryCardProps) {
+  const count = getArticlesByCategory(category.slug).length;
+
   return (
     <div className="group relative flex flex-col justify-between rounded-2xl border border-amber-950/10 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-amber-300 hover:shadow-md">
       <div>
@@ -15,7 +18,7 @@ export default function CategoryCard({ category }: CategoryCardProps) {
             {category.name.substring(0, 2).toUpperCase()}
           </div>
           <span className="text-xs font-mono font-medium text-slate-500 bg-slate-50 px-2.5 py-1 rounded-full border border-slate-200">
-            {category.articleCount} Guides
+            {count > 0 ? `${count} ${count === 1 ? "Guide" : "Guides"}` : "Editorial Hub"}
           </span>
         </div>
 
