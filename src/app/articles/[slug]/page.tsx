@@ -47,8 +47,11 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
 export default async function ArticlePage({ params }: ArticlePageProps) {
   const { slug } = await params;
 
-  if (slug === "techtrendery-com-usa") {
+  if (slug.toLowerCase() === "techtrendery-com-usa") {
     redirect("/techtrendery-com-usa");
+  }
+  if (slug.toLowerCase() === "modcityusa-com") {
+    redirect("/ModCityUSA-com");
   }
 
   const article = getArticleBySlug(slug);

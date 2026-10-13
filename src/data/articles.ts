@@ -33,6 +33,103 @@ export interface Article {
 
 export const ARTICLES: Article[] = [
   {
+    slug: "ModCityUSA-com",
+    customPath: "/ModCityUSA-com",
+    title: "ModCityUSA com: Website Review, Features, and What to Know",
+    excerpt:
+      "ModCityUSA com is a website that people search for when they want to understand its purpose, explore its content, or determine whether it is a reliable place to browse or shop online. If you have recently encountered the name, you may be wondering whether it is a fashion retailer, a lifestyle website, or a general-interest blog.",
+    categorySlug: "business",
+    categoryName: "Business",
+    publishedDate: "2026-10-13",
+    modifiedDate: "2026-10-13",
+    author: {
+      name: "BrassSmile Business Research Desk",
+      role: "Digital Publishing & Consumer Trust Team",
+    },
+    readingTime: "14 min read",
+    featuredImage: "/images/articles/modcityusa-com-featured.jpg",
+    heroImageAlt:
+      "ModCityUSA.com platform review showing modern digital publishing workstation with laptop, editorial notes, and website category analysis",
+    keyTakeaways: [
+      "ModCityUSA com presents itself as a multi-category editorial blog spanning fashion, business, finance, lifestyle, technology, entertainment, and travel.",
+      "There is an important distinction between the website's style-oriented branding/third-party retail descriptions and its visible article-based content.",
+      "Before purchasing, verify whether a page has genuine product listings, transparent pricing, seller identification, a shopping cart, and a formal refund policy.",
+      "The site discloses that articles may include affiliate links pointing to external third-party retailers rather than operating direct fulfillment.",
+      "Always check domain spelling, seller identity, return terms, and payment dispute protections when exploring unfamiliar online shopping destinations.",
+    ],
+    toc: [
+      { id: "what-is-modcityusa-com", title: "What Is ModCityUSA com?" },
+      { id: "features-and-main-categories", title: "ModCityUSA com Features and Main Content Categories" },
+      { id: "is-it-an-online-store", title: "Is ModCityUSA com an Online Store?" },
+      { id: "is-it-legit-or-a-scam", title: "Is ModCityUSA com Legit or a Scam?" },
+      { id: "safety-guide-before-shopping", title: "ModCityUSA com Safety Guide: What to Check Before Shopping" },
+      { id: "advantages-and-limitations", title: "Advantages and Limitations of ModCityUSA com" },
+      { id: "who-may-find-it-useful", title: "Who May Find ModCityUSA com Useful?" },
+      { id: "frequently-asked-questions", title: "Frequently Asked Questions About ModCityUSA com" },
+      { id: "conclusion", title: "Conclusion: What You Should Know About ModCityUSA com" },
+    ],
+    body: [
+      "ModCityUSA com is a website that people search for when they want to understand its purpose, explore its content, or determine whether it is a reliable place to browse or shop online. If you have recently encountered the name, you may be wondering whether it is a fashion retailer, a lifestyle website, or a general-interest blog.",
+      "The answer is not as straightforward as the name might suggest. The current ModCityUSA.com homepage displays articles covering business, finance, fashion, lifestyle, entertainment, technology, travel, sports, and celebrities. Its About page describes the site as a blog publishing informative articles, reviews, comparisons, and practical guides.",
+      "At the same time, its branding emphasizes modern style and trends, and some third-party reviews describe it as an online fashion and accessories store. This creates a difference between the website's shopping-oriented presentation and its visible article-based content.",
+      "Understanding that distinction is important before relying on a review, purchasing a product, or entering personal information.",
+      "In this guide, we will examine ModCityUSA com, explain what its current website offers, explore its main categories, discuss its online reputation, and provide practical steps for evaluating its reliability.",
+    ],
+    faqs: [
+      {
+        question: "1. What is ModCityUSA com?",
+        answer:
+          "ModCityUSA com refers to ModCityUSA.com, a website whose current homepage displays articles across business, finance, fashion, lifestyle, entertainment, technology, travel, sports, and other categories.",
+      },
+      {
+        question: "2. Is ModCityUSA com a legitimate website?",
+        answer:
+          "The site has a live homepage and published informational pages, but these factors alone do not verify all aspects of its reliability. Review its content, contact details, policies, independent feedback, and any specific commercial offer before proceeding.",
+      },
+      {
+        question: "3. Does ModCityUSA.com sell clothing and accessories?",
+        answer:
+          "Some third-party articles describe it as a fashion and lifestyle store. However, the current homepage reviewed for this guide primarily displays editorial articles. Confirm that a specific product listing and genuine checkout process exist before attempting a purchase.",
+      },
+      {
+        question: "4. Is ModCityUSA com safe for online shopping?",
+        answer:
+          "The available evidence is insufficient to guarantee the safety of a transaction. Verify the seller, read the refund policy, check independent customer feedback, and choose a payment method with suitable dispute protections.",
+      },
+      {
+        question: "5. What type of content does ModCityUSA.com publish?",
+        answer:
+          "Its current categories include business, finance, entertainment, celebrities, fashion, lifestyle, net worth, sports, travel, and technology. Readers can use the category navigation to explore related articles.",
+      },
+      {
+        question: "6. Does ModCityUSA.com publish technology articles?",
+        answer:
+          "Yes. The website has a Technology category that includes articles about digital tools and other technology-related subjects. For technical decisions, verify current features and specifications through authoritative documentation.",
+      },
+      {
+        question: "7. Does ModCityUSA.com have a refund policy?",
+        answer:
+          "The site publishes terms and conditions and a privacy policy, but the existence of those pages does not establish a retail refund process. If you are purchasing a product, locate the seller's specific return and refund terms before paying.",
+      },
+      {
+        question: "8. Can I trust customer reviews about ModCityUSA.com?",
+        answer:
+          "Evaluate each review individually. Detailed accounts that describe a specific transaction are generally more informative than unsupported statements. Check dates and ensure the feedback refers to the exact domain rather than a similarly named business.",
+      },
+      {
+        question: "9. Is ModCityUSA.com the same as a fashion marketplace?",
+        answer:
+          "The site's branding emphasizes style and trends, but its current homepage primarily presents multi-category editorial content. Do not assume that it operates as a marketplace unless the actual shopping functionality and seller details are clearly established.",
+      },
+      {
+        question: "10. What should I do if I have a problem with an order associated with ModCityUSA?",
+        answer:
+          "Keep your order confirmation, receipts, messages, and screenshots. Contact the verified seller through its published support channel. If the transaction cannot be resolved, consult your payment provider about its dispute process and the deadlines that apply.",
+      },
+    ],
+    relatedSlugs: ["techtrendery-com-usa"],
+  },
+  {
     slug: "techtrendery-com-usa",
     customPath: "/techtrendery-com-usa",
     title: "techtrendery.com usa: Website Guide, Features, and Content Review",
@@ -129,18 +226,18 @@ export const ARTICLES: Article[] = [
           "The presence of technology articles does not establish that TechTrendery provides support for third-party products. For troubleshooting or account-related problems, consult the official manufacturer or service provider unless the website explicitly offers a relevant service.",
       },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ["ModCityUSA-com"],
   },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
-  return ARTICLES.find((a) => a.slug === slug);
+  return ARTICLES.find((a) => a.slug === slug || a.slug.toLowerCase() === slug.toLowerCase());
 }
 
 export function getArticlesByCategory(categorySlug: string): Article[] {
-  return ARTICLES.filter((a) => a.categorySlug === categorySlug);
+  return ARTICLES.filter((a) => a.categorySlug.toLowerCase() === categorySlug.toLowerCase());
 }
 
 export function getCategoryArticleCount(categorySlug: string): number {
-  return ARTICLES.filter((a) => a.categorySlug === categorySlug).length;
+  return ARTICLES.filter((a) => a.categorySlug.toLowerCase() === categorySlug.toLowerCase()).length;
 }
