@@ -14,15 +14,6 @@ const nextConfig: NextConfig = {
       },
     },
   },
-  async redirects() {
-    return [
-      {
-        source: "/modcityusa-com",
-        destination: "/ModCityUSA-com",
-        permanent: true,
-      },
-    ];
-  },
   async headers() {
     return [
       {
