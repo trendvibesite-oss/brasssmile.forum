@@ -12,7 +12,7 @@ export const metadata: Metadata = constructMetadata({
   title: "ModCityUSA com: Website Review, Features, and What to Know | BrassSmile",
   description:
     "ModCityUSA com is a website people search for to understand its purpose, explore its content, or evaluate its reliability. Explore this in-depth guide covering its multi-topic publishing model, fashion branding, e-commerce verification, and online shopping safety tips.",
-  canonicalPath: "/ModCityUSA-com",
+  canonicalPath: "/modcityusa-com",
   type: "article",
   publishedTime: "2026-10-13T00:00:00Z",
   modifiedTime: "2026-10-13T00:00:00Z",
@@ -85,7 +85,7 @@ const MODCITYUSA_FAQS = [
 ];
 
 export default function ModCityUSAArticlePage() {
-  const articleUrl = `${SITE_URL}/ModCityUSA-com`;
+  const articleUrl = `${SITE_URL}/modcityusa-com`;
 
   const articleSchema = getArticleSchema({
     title: "ModCityUSA com: Website Review, Features, and What to Know",
@@ -100,7 +100,7 @@ export default function ModCityUSAArticlePage() {
   const faqSchema = getFAQSchema(MODCITYUSA_FAQS);
 
   const relatedArticles = ARTICLES.filter(
-    (a) => a.slug !== "ModCityUSA-com"
+    (a) => a.slug !== "modcityusa-com"
   ).slice(0, 2);
 
   return (
@@ -117,7 +117,7 @@ export default function ModCityUSAArticlePage() {
       <Breadcrumb
         items={[
           { label: "Business", href: "/business" },
-          { label: "ModCityUSA com", href: "/ModCityUSA-com" },
+          { label: "ModCityUSA com", href: "/modcityusa-com" },
         ]}
       />
 

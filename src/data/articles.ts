@@ -33,8 +33,8 @@ export interface Article {
 
 export const ARTICLES: Article[] = [
   {
-    slug: "ModCityUSA-com",
-    customPath: "/ModCityUSA-com",
+    slug: "modcityusa-com",
+    customPath: "/modcityusa-com",
     title: "ModCityUSA com: Website Review, Features, and What to Know",
     excerpt:
       "ModCityUSA com is a website that people search for when they want to understand its purpose, explore its content, or determine whether it is a reliable place to browse or shop online. If you have recently encountered the name, you may be wondering whether it is a fashion retailer, a lifestyle website, or a general-interest blog.",
@@ -226,7 +226,7 @@ export const ARTICLES: Article[] = [
           "The presence of technology articles does not establish that TechTrendery provides support for third-party products. For troubleshooting or account-related problems, consult the official manufacturer or service provider unless the website explicitly offers a relevant service.",
       },
     ],
-    relatedSlugs: ["ModCityUSA-com"],
+    relatedSlugs: ["modcityusa-com"],
   },
 ];
 

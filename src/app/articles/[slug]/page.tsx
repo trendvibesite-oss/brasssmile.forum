@@ -51,7 +51,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     redirect("/techtrendery-com-usa");
   }
   if (slug.toLowerCase() === "modcityusa-com") {
-    redirect("/ModCityUSA-com");
+    redirect("/modcityusa-com");
   }
 
   const article = getArticleBySlug(slug);
