@@ -65,6 +65,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   if (slug.toLowerCase() === "team-aelftech-com") {
     redirect("/team-aelftech-com");
   }
+  if (slug.toLowerCase() === "fintechzoom-io-nasdaq") {
+    redirect("/fintechzoom-io-nasdaq");
+  }
 
   const article = getArticleBySlug(slug);
 
