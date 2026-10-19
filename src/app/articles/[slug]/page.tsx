@@ -77,6 +77,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   if (slug.toLowerCase() === "kristi-mcbee-net-worth") {
     redirect("/kristi-mcbee-net-worth");
   }
+  if (slug.toLowerCase() === "www-crunchyroll-activate") {
+    redirect("/www-crunchyroll-activate");
+  }
 
   const article = getArticleBySlug(slug);
 
