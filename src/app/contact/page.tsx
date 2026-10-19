@@ -83,6 +83,15 @@ export default function ContactPage() {
         <p className="text-base text-slate-600 leading-relaxed">
           We welcome reader inquiries, editorial feedback, topic suggestions, and factual corrections. Please complete the form below, and our research desk will review your inquiry.
         </p>
+        <p className="text-base text-slate-700">
+          For any editorial support contact -{" "}
+          <a
+            href="mailto:plusplymarketing@gmail.com"
+            className="font-semibold text-amber-900 underline hover:text-amber-700"
+          >
+            plusplymarketing@gmail.com
+          </a>
+        </p>
       </header>
 
       {/* Important Medical Advice Notice */}
