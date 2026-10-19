@@ -71,6 +71,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   if (slug.toLowerCase() === "mygreenbucks-net-jones") {
     redirect("/mygreenbucks-net-jones");
   }
+  if (slug.toLowerCase() === "growthscribe") {
+    redirect("/growthscribe");
+  }
 
   const article = getArticleBySlug(slug);
 
