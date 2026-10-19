@@ -33,6 +33,111 @@ export interface Article {
 
 export const ARTICLES: Article[] = [
   {
+    slug: "kristi-mcbee-net-worth",
+    customPath: "/kristi-mcbee-net-worth",
+    title: "Kristi McBee Net Worth: Career, Business Success, Income, and Personal Life",
+    excerpt:
+      "Kristi McBee net worth has become a popular search topic among viewers of The McBee Dynasty: Real American Cowboys. Known as the McBee family matriarch, Kristi has attracted attention not only for her role on the Bravo reality television series but also for her achievements as a businesswoman.",
+    categorySlug: "business",
+    categoryName: "Business",
+    publishedDate: "2026-10-19",
+    modifiedDate: "2026-10-19",
+    author: {
+      name: "BrassSmile Business Research Desk",
+      role: "Corporate Analysis & Private Equity Team",
+    },
+    readingTime: "12 min read",
+    featuredImage: "/images/articles/kristi-mcbee-net-worth-featured.jpg",
+    heroImageAlt:
+      "Kristi McBee, businesswoman and president of Lan-Tel Communications, seated in a modern executive office reviewing infrastructure development and corporate strategy",
+    keyTakeaways: [
+      "Kristi McBee serves as president of Lan-Tel Communications, a communications infrastructure, underground construction, and concrete services company she acquired following her divorce.",
+      "Her exact net worth is not publicly confirmed; private corporate financials mean online multimillion-dollar figures remain speculative.",
+      "Kristi gained national recognition on Bravo's The McBee Dynasty: Real American Cowboys, but built her financial standing independently through operational business turnaround.",
+      "Company revenue must be distinguished from personal wealth, as operational costs, equipment debt, and cash flow timing govern actual profitability.",
+      "Her professional profile centers on operational restructuring, expanding Lan-Tel threefold, and maintaining family leadership alongside four sons.",
+    ],
+    toc: [
+      { id: "introduction", title: "Introduction" },
+      { id: "what-is-kristi-mcbee-net-worth", title: "What Is Kristi McBee Net Worth in 2026?" },
+      { id: "estimated-wealth-vs-verified-info", title: "Kristi McBee Net Worth: Estimated Wealth vs. Verified Information" },
+      { id: "who-is-kristi-mcbee", title: "Who Is Kristi McBee?" },
+      { id: "kristi-mcbee-biography", title: "Kristi McBee Biography" },
+      { id: "what-does-she-do-for-a-living", title: "What Does Kristi McBee Do for a Living?" },
+      { id: "lan-tel-communications", title: "Lan-Tel Communications: Kristi McBee's Business" },
+      { id: "how-she-grew-lan-tel", title: "How Kristi McBee Grew Lan-Tel Communications" },
+      { id: "main-sources-of-income", title: "What Are Kristi McBee's Main Sources of Income?" },
+      { id: "marriage-divorce-financial-independence", title: "Kristi McBee and Steve McBee Sr.: Marriage, Divorce, and Financial Independence" },
+      { id: "did-divorce-increase-net-worth", title: "Did the Divorce Increase Kristi McBee's Net Worth?" },
+      { id: "role-in-the-mcbee-dynasty", title: "Kristi McBee's Role in The McBee Dynasty: Real American Cowboys" },
+      { id: "how-tv-increased-public-profile", title: "How Television Increased Kristi McBee's Public Profile" },
+      { id: "family-life-relationship-with-sons", title: "Kristi McBee's Family Life and Relationship With Her Sons" },
+      { id: "wealth-comparison-steve-mcbee-sr", title: "How Does Kristi McBee's Wealth Compare With Steve McBee Sr.'s?" },
+      { id: "notable-business-journey", title: "What Makes Kristi McBee's Business Journey Notable?" },
+      { id: "frequently-asked-questions", title: "Frequently Asked Questions About Kristi McBee Net Worth" },
+      { id: "conclusion", title: "Conclusion: Kristi McBee Net Worth and Her Journey to Business Success" },
+    ],
+    body: [
+      "Kristi McBee net worth has become a popular search topic among viewers of The McBee Dynasty: Real American Cowboys. Known as the McBee family matriarch, Kristi has attracted attention not only for her role on the Bravo reality television series but also for her achievements as a businesswoman. Her professional journey is particularly interesting because she built her own business career while navigating major changes in her personal and family life.",
+      "Unlike many reality television personalities who depend primarily on entertainment careers, Kristi McBee is best known for her leadership at Lan-Tel Communications, a company specializing in communications infrastructure, underground construction, and concrete services. She reportedly acquired the business after divorcing Steve McBee Sr. and helped grow it to three times its previous size.",
+      "Although her exact financial details have not been publicly disclosed, her business achievements have fueled considerable interest in her wealth, income sources, and professional success.",
+      "In this article, we explore Kristi McBee's estimated net worth, career background, business ownership, television appearances, family life, and the factors that may contribute to her financial position.",
+    ],
+    faqs: [
+      {
+        question: "1. What Is Kristi McBee Net Worth in 2026?",
+        answer:
+          "Kristi McBee's exact net worth in 2026 has not been publicly confirmed. Online estimates vary, and no verified financial disclosure establishes the total value of her personal assets and liabilities.",
+      },
+      {
+        question: "2. How Did Kristi McBee Make Her Money?",
+        answer:
+          "Kristi is best known professionally for her role as president of Lan-Tel Communications, a communications infrastructure and construction company she acquired after her divorce. She also appears on The McBee Dynasty: Real American Cowboys, although her television compensation is not publicly known.",
+      },
+      {
+        question: "3. What Company Does Kristi McBee Own?",
+        answer:
+          "Kristi acquired Lan-Tel Communications after her divorce from Steve McBee Sr. She serves as the company's president. Her precise ownership percentage and the company's complete current valuation have not been publicly established.",
+      },
+      {
+        question: "4. How Much Is Lan-Tel Communications Worth?",
+        answer:
+          "Lan-Tel Communications is a privately held business, and a verified current valuation has not been publicly established. Estimates of company revenue found on business directories should not be confused with its market value or Kristi's personal wealth.",
+      },
+      {
+        question: "5. Is Kristi McBee Richer Than Steve McBee Sr.?",
+        answer:
+          "There is not enough verified financial information to establish which individual has the higher net worth. Their business interests differ, and neither person's complete personal balance sheet is publicly available.",
+      },
+      {
+        question: "6. Did Kristi McBee Receive Money From Her Divorce?",
+        answer:
+          "The complete financial terms of her divorce from Steve McBee Sr. have not been publicly established. Although she acquired Lan-Tel Communications after the divorce, the precise financial impact of the separation on her personal wealth is unknown.",
+      },
+      {
+        question: "7. Does Kristi McBee Earn Money From Bravo?",
+        answer:
+          "Kristi appears on The McBee Dynasty: Real American Cowboys. However, her specific compensation, contract terms, and total earnings from the series have not been publicly disclosed.",
+      },
+      {
+        question: "8. How Many Children Does Kristi McBee Have?",
+        answer:
+          "Kristi McBee has four sons: Steven McBee Jr., Jesse McBee, Cole McBee, and Brayden McBee. She is also a grandmother and remains an important source of support for her family.",
+      },
+      {
+        question: "9. Is Kristi McBee Still Involved With McBee Farm & Cattle Co.?",
+        answer:
+          "Kristi is primarily associated professionally with Lan-Tel Communications. Although she has supported her sons and family during challenging periods, her public role should not be confused with an ongoing executive position at McBee Farm & Cattle Co. Her business responsibilities and any temporary family arrangements should be assessed using the latest confirmed information.",
+      },
+      {
+        question: "10. What Is Kristi McBee's Biggest Source of Wealth?",
+        answer:
+          "Her leadership and business interests in Lan-Tel Communications are the clearest publicly identified components of her professional financial profile. However, without verified information about her ownership stake, company profits, and personal assets, it is not possible to determine the exact percentage of her wealth attributable to the business.",
+      },
+    ],
+    relatedSlugs: ["growthscribe", "mygreenbucks-net-jones"],
+  },
+  {
     slug: "growthscribe",
     customPath: "/growthscribe",
     title: "Growthscribe: Marketing Agency Services, Strategy, and Business Growth Guide",
