@@ -453,7 +453,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* SECTION 10 — FEATURED BRASSSMILE GUIDES */}
+        {/* SECTION 10 — RECENT POSTS & EDITORIAL GUIDES */}
         <section id="featured-guides" className="scroll-mt-24 space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
             <div>
@@ -461,7 +461,7 @@ export default function HomePage() {
                 Editorial Publications
               </span>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
-                Foundational BrassSmile Guides
+                Recent Posts &amp; Guides
               </h2>
               <div className="h-1 w-16 bg-amber-500 rounded mt-2" />
             </div>
@@ -474,8 +474,8 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-2">
-            {ARTICLES.slice(0, 3).map((article, idx) => (
-              <ArticleCard key={article.slug} article={article} featured={idx === 0} />
+            {ARTICLES.slice(0, 6).map((article) => (
+              <ArticleCard key={article.slug} article={article} featured={false} />
             ))}
           </div>
         </section>

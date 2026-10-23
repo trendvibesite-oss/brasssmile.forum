@@ -77,6 +77,7 @@ export default function ArticleCard({ article, featured = false }: ArticleCardPr
                 month: "short",
                 day: "numeric",
                 year: "numeric",
+                timeZone: "UTC",
               })}
             </time>
           </div>
