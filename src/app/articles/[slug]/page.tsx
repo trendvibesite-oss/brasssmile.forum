@@ -89,6 +89,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   if (slug.toLowerCase() === "leofame") {
     redirect("/leofame");
   }
+  if (slug.toLowerCase() === "about-aelftech-com") {
+    redirect("/about-aelftech-com");
+  }
 
   const article = getArticleBySlug(slug);
 
