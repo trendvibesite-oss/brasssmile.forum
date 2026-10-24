@@ -80,6 +80,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   if (slug.toLowerCase() === "www-crunchyroll-activate") {
     redirect("/www-crunchyroll-activate");
   }
+  if (slug.toLowerCase() === "redeepseek-com") {
+    redirect("/redeepseek-com");
+  }
 
   const article = getArticleBySlug(slug);
 
